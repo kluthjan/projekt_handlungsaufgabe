@@ -25,3 +25,6 @@ build/
 
 # Logs
 *.log
+
+# Microsoft Office temporary files
+~$*
