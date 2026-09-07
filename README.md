@@ -28,14 +28,10 @@ projekt_handlungsaufgabe/
 │   │   └── Kundenberechnungen.xlsx               # Speicherplatzbedarf (445 GiB) & Energiekosten (1.771,26 €/a)
 │   ├── 01_Projektorganisation/
 │   │   ├── Vorgangsliste.xlsx                    # 14 Vorgänge nach Wasserfallmodell inkl. Abhängigkeiten & Dauern
-│   │   ├── Netzplan.xlsx                         # Netzplan DIN 69900 (Blatt 1: Grafik-Einbettung, Blatt 2: Formeltabelle)
-│   │   ├── Netzplan.pdf                          # Hochauflösender Vektor-Netzplan (DIN A4 Querformat)
-│   │   ├── Netzplan.png                          # Kristallklarer DIN 69900 Netzplan mit kritischem Pfad (rot)
-│   │   ├── Netzplan.md                           # Dokumentierter Netzplan mit grafischem Ablauf & Knotenzeiten
-│   │   ├── Projektstrukturplan.xlsx              # PSP nach DIN 69901 (Blatt 1: Grafik-Einbettung, Blatt 2: WBS-Tabelle)
-│   │   ├── Projektstrukturplan.pdf               # Hochauflösender Strukturplan (DIN A4 Querformat)
-│   │   ├── Projektstrukturplan.png               # 5 Teilprojekte, 30 Arbeitspakete als Baumdiagramm
-│   │   ├── Projektstrukturplan.md                # PSP (objektorientiert) mit visuellem Mermaid-Diagramm
+│   │   ├── Netzplan.xlsx                         # DIN 69900 Netzplan (reinzellige Excel-Tabelle, B&W + roter kritischer Pfad)
+│   │   ├── Netzplan.md                           # Dokumentierter Netzplan mit Knotenzeiten & Formeln
+│   │   ├── Projektstrukturplan.xlsx              # DIN 69901 PSP (reinzellige Excel-Tabelle, 5 Säulen, 30 Arbeitspakete)
+│   │   ├── Projektstrukturplan.md                # Dokumentierter PSP mit Gliederung & WBS
 │   │   ├── Gantt_Diagramm.xlsx                   # Visueller Termin- und Ablaufplan (48 Tage)
 │   │   └── Risikoanalyse.xlsx                    # 7 Risiken inkl. Matrix & Ampel-Bewertung
 │   ├── 02_Anforderungsanalyse/
@@ -58,8 +54,7 @@ projekt_handlungsaufgabe/
 │   │   └── Abnahmeprotokoll.docx                 # Rechtskonformes Abnahme- und Übergabeprotokoll mit Mängelliste
 │   └── 08_Projektabschluss/
 │       ├── Lessons_Learned.docx                  # Soll-Ist-Vergleich, Selbstreflexion & Handlungsempfehlungen
-│       ├── Abschlusspraesentation_VektorPlan.pptx# 16-Folien Premium-Präsentation mit Netzplan, PSP & Team-Sprechernotizen
-│       ├── Abschlusspraesentation.pptx           # Synchronisierte Abschlusspräsentation
+│       ├── Abschlusspraesentation.pptx           # 16-Folien Abschlusspräsentation mit vollständigen Team-Sprechernotizen
 │       ├── Gespraechsleitfaden_Praesentation.pdf # Vollständiger Wortlaut-Leitfaden aufgeteilt auf alle 5 Teammitglieder
 │       ├── Projekterklaerung_und_Wissensleitfaden.pdf # Fachwissen, methodische Erklärungen & Vorbereitung für Prüferfragen
 │       └── Projektstatus_und_Naechste_Schritte.pdf # Statusübersicht, Rollenmatrix & Checkliste zur Bestnote 1
