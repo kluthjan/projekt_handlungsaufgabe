@@ -25,7 +25,11 @@ Alle Aufgaben wurden vollständig gelöst und als professionelle Word-, Excel- u
 projekt_handlungsaufgabe/
 ├── docs/
 │   ├── Berechnungen/
-│   │   └── Kundenberechnungen.xlsx               # Speicherplatzbedarf (445 GiB) & Energiekosten (1.771,26 €/a)
+│   │   ├── Energiekostenkalkulation.xlsx         # Spezifische Energiekosten-Kalkulation (1.771,26 €/a, 12 PCs vs. 4 Workstations, KPIs & Tipps)
+│   │   ├── Speicherplatzberechnung.xlsx          # Exakte Speicherplatzberechnung (445 GiB Q1, Binärfaktor 1024, 25% Puffer, 3-Jahres-Planung)
+│   │   ├── Kundenberechnungen.xlsx               # Master-Kalkulation (beide Blätter: Speicherplatz & Energiekosten vereint)
+│   │   ├── Kundenberechnungen_Dokumentation.docx # Offizieller Kunden- und Prüfbericht zu den Berechnungen (DIN 5008)
+│   │   └── Kundenberechnungen_Dokumentation.pdf  # Druckfertige PDF-Dokumentation mit Formeln, Rechenwegen & Empfehlungen
 │   ├── 01_Projektorganisation/
 │   │   ├── Vorgangsliste.xlsx                    # 14 Vorgänge nach Wasserfallmodell inkl. Abhängigkeiten & Dauern
 │   │   ├── Netzplan.xlsx                         # DIN 69900 Netzplan (reinzellige Excel-Tabelle, B&W + roter kritischer Pfad)
