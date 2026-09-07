@@ -28,6 +28,8 @@ projekt_handlungsaufgabe/
 │   │   └── Kundenberechnungen.xlsx               # Speicherplatzbedarf (445 GiB) & Energiekosten (1.771,26 €/a)
 │   ├── 01_Projektorganisation/
 │   │   ├── Vorgangsliste.xlsx                    # 14 Vorgänge nach Wasserfallmodell inkl. Abhängigkeiten & Dauern
+│   │   ├── Netzplan.xlsx                         # Netzplan nach DIN 69900 (Kritischer Weg, FAZ/FEZ/SAZ/SEZ, Puffer)
+│   │   ├── Netzplan.md                           # Dokumentierter Netzplan mit grafischem Mermaid-Ablauf & Knotenzeiten
 │   │   ├── Projektstrukturplan.xlsx              # Detaillierter tabellarischer PSP (DIN 69901) mit allen Arbeitspaketen
 │   │   ├── Projektstrukturplan.md                # PSP (objektorientiert) mit visuellem Mermaid-Diagramm
 │   │   ├── Gantt_Diagramm.xlsx                   # Visueller Termin- und Ablaufplan (48 Tage)
@@ -52,7 +54,8 @@ projekt_handlungsaufgabe/
 │   │   └── Abnahmeprotokoll.docx                 # Rechtskonformes Abnahme- und Übergabeprotokoll mit Mängelliste
 │   └── 08_Projektabschluss/
 │       ├── Lessons_Learned.docx                  # Soll-Ist-Vergleich, Selbstreflexion & Handlungsempfehlungen
-│       └── Abschlusspraesentation.pptx           # 14 Folien für die 10-minütige Abschlusspräsentation
+│       ├── Abschlusspraesentation_VektorPlan.pptx# Überarbeitete 16-Folien Premium-Präsentation mit Netzplan & PSP
+│       └── Abschlusspraesentation.pptx           # 14 Folien Basis-Abschlusspräsentation
 └── README.md
 ```
 
