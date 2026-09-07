@@ -47,8 +47,9 @@ Damit jedes Teammitglied alle aktuellen Unterlagen, Excel-Tabellen, Word-Dokumen
 3. Klicke im Menü auf **`Download ZIP`**.
 4. Speichere die Datei (z. B. auf dem Desktop) und entpacke die ZIP-Datei per Rechtsklick -> *Alle extrahieren...*.
 
-### 📱 Alle Dokumente direkt im Browser lesbar (PDF-Zwillinge)
-Jedes Word-Dokument und die Präsentation liegen nun zusätzlich als **druckfertige PDF-Datei** vor. Auf GitHub könnt ihr einfach auf die PDF-Datei klicken und sie öffnet sich sofort direkt im Browser (kein MS Office erforderlich, ideal auch für Tablets und Smartphones)!
+### 💻 Benötigte Programme
+- **Microsoft Word / Office 365 / LibreOffice** für alle Dokumente und Tabellen.
+- **Microsoft PowerPoint** für die Präsentation (`Abschlusspraesentation.pptx`).
 
 ---
 
@@ -105,43 +106,42 @@ Unser Kunde, die **VektorPlan GmbH**, modernisiert ihre Geschäftsräume und ben
 
 ## 🧭 4. Datei-Kompass: Wo finde ich was, wenn der Lehrer fragt?
 
-> 🏆 **WICHTIGSTE DATEI ZUR ABGABE (MASTER-DOKUMENTATION):**  
-> Wenn der Lehrer nach der **„Projektdokumentation“** fragt oder ein Gesamtdokument zur Benotung sehen will, legt ihr ihm die Datei  
-> 📄 **`docs/Projektdokumentation_Handlungsaufgabe.pdf`** (oder als Word-Datei **`.docx`**) vor!  
-> Dieses **16-seitige Hauptdokument** vereint alle Aufgaben (A bis C, B.1/B.2, 1 bis 8) lückenlos mit allen Rechenwegen, Tabellen, Spezifikationen und Rechtsgrundlagen. Alle nachfolgenden Dateien in der Tabelle sind die vertiefenden Detail- und Arbeitsdateien.
+> 🏆 **WICHTIGSTE DATEI ZUR ABGABE (MASTER-DOKUMENTATION ALS WORD-DATEI):**  
+> Wenn der Lehrer nach der **„Projektdokumentation“** fragt oder ein Gesamtdokument zur Benotung sehen will, gebt ihr ihm die Word-Datei:  
+> 📄 **`docs/Projektdokumentation_Handlungsaufgabe.docx`**  
+> Dieses Dokument ist wie von einem echten Azubi-Team geschrieben (kein KI-Kauderwelsch, sondern klare, menschliche Sprache). Es vereint alle Aufgaben (A bis C, B.1/B.2, 1 bis 8) lückenlos mit allen Rechenwegen, Tabellen, Spezifikationen und Rechtsgrundlagen.
 
-| Aufgabe laut Aufgabenstellung | Thema & Inhalt | Dateipfad im Projekt (Word / PDF / Excel) | Wichtigste Kennzahlen / Fakten |
+| Aufgabe laut Aufgabenstellung | Thema & Inhalt | Dateipfad im Projekt (Word / Excel / PowerPoint) | Wichtigste Kennzahlen / Fakten |
 |---|---|---|---|
-| ⭐ **GESAMT-DOKUMENTATION** | **Offizieller Projektbericht (16 Seiten)** | **`docs/Projektdokumentation_Handlungsaufgabe.pdf`**<br>`docs/Projektdokumentation_Handlungsaufgabe.docx` | **Komplette Dokumentation aller Aufgaben (A–C, 1–8)**, alle Formeln, Tabellen & Nachweise |
+| ⭐ **GESAMT-DOKUMENTATION** | **Offizieller Projektbericht (Word-Datei)** | **`docs/Projektdokumentation_Handlungsaufgabe.docx`** | **Komplette Dokumentation aller Aufgaben (A–C, 1–8)**, menschlich geschrieben, alle Formeln & Tabellen |
 | **Aufgabe A** | Ausgangssituation & Auftrag | `Projekt_Handlungsaufgabe.docx` | 16 Arbeitsplätze (12 Office, 4 CAD), Plotterstation |
-| **Aufgabe B.1** | Speicherplatzbedarf Fileserver | `docs/Berechnungen/Speicherplatzberechnung.xlsx`<br>`docs/Berechnungen/Kundenberechnungen_Dokumentation.pdf` | **445 GiB** Quartalsbedarf (356 GiB Netto + 25% Puffer, Teiler 1024) |
+| **Aufgabe B.1** | Speicherplatzbedarf Fileserver | `docs/Berechnungen/Speicherplatzberechnung.xlsx`<br>`docs/Berechnungen/Kundenberechnungen_Dokumentation.docx` | **445 GiB** Quartalsbedarf (356 GiB Netto + 25% Puffer, Teiler 1024) |
 | **Aufgabe B.2** | Energiekostenkalkulation | `docs/Berechnungen/Energiekostenkalkulation.xlsx`<br>`docs/Berechnungen/Kundenberechnungen.xlsx` | **1.771,26 €/Jahr** (2,96 kW Gesamtlast, 5.535,2 kWh/a, 0,32 €/kWh) |
 | **Aufgabe 1a** | Vorgangsliste (Ablauf & Dauern) | `docs/01_Projektorganisation/Vorgangsliste.xlsx` | 14 Vorgänge im Wasserfallmodell, Zuständigkeiten aller 5 Mitglieder |
 | **Aufgabe 1b** | DIN 69900 Netzplan | `docs/01_Projektorganisation/Netzplan.xlsx`<br>`docs/01_Projektorganisation/Netzplan.md` | **46 Tage Projektdauer**, Vorwärts-/Rückwärtsrechnung, Pufferzeiten |
 | **Aufgabe 1c** | DIN 69901 Projektstrukturplan | `docs/01_Projektorganisation/Projektstrukturplan.xlsx`<br>`docs/01_Projektorganisation/Projektstrukturplan.md` | **5 Hauptphasen, 30 Arbeitspakete**, objekt-/phasenorientiert |
 | **Aufgabe 1d** | Terminplan (Gantt) & Risiken | `docs/01_Projektorganisation/Gantt_Diagramm.xlsx`<br>`docs/01_Projektorganisation/Risikoanalyse.xlsx` | 7 Projektrisiken mit Risikomatrix & Ampelfarben |
-| **Aufgabe 2a** | Lastenheft (Soll-Konzept) | `docs/02_Anforderungsanalyse/Lastenheft.pdf`<br>`docs/02_Anforderungsanalyse/Lastenheft.docx` | Vollständige Kundenvorgaben (Hardware, Software, Service, Ergonomie) |
-| **Aufgabe 2b** | Netzwerkkonzept & IP-Plan | `docs/02_Anforderungsanalyse/Netzwerkkonzept.pdf`<br>`docs/02_Anforderungsanalyse/Netzwerkkonzept.docx` | **Cat.6a S/FTP, VLAN-Segmentierung (20, 30, 40, 50)**, 48-Port Matrix |
+| **Aufgabe 2a** | Lastenheft (Soll-Konzept) | `docs/02_Anforderungsanalyse/Lastenheft.docx` | Vollständige Kundenvorgaben (Hardware, Software, Service, Ergonomie) |
+| **Aufgabe 2b** | Netzwerkkonzept & IP-Plan | `docs/02_Anforderungsanalyse/Netzwerkkonzept.docx` | **Cat.6a S/FTP, VLAN-Segmentierung (20, 30, 40, 50)**, 48-Port Matrix |
 | **Aufgabe 3** | Marktrecherche & Nutzwertanalyse | `docs/03_Marktrecherche/Produktrecherche.xlsx`<br>`docs/03_Marktrecherche/Nutzwertanalyse_Workstations.xlsx`<br>`docs/03_Marktrecherche/Nutzwertanalyse_Monitore.xlsx` | Reale Preise, ThinkStation P3 (8,70 Pkt.) & Dell U2724D (9,10 Pkt.) |
 | **Aufgabe 4a** | Kaufmännische Kalkulation | `docs/04_Angebot/Vorwaertskalkulation.xlsx` | Bezugspreis -> HK (25%) -> Gewinn (12%) -> Skonto (3%) |
-| **Aufgabe 4b** | Formelles Angebot an Kunden | `docs/04_Angebot/Angebot_VektorPlan.pdf`<br>`docs/04_Angebot/Angebot_VektorPlan.docx` | DIN 5008 Geschäftsbrief, **67.179,32 € netto**, Zahlungsbedingungen |
-| **Aufgabe 4c** | Finanzierungsberatung | `docs/04_Angebot/Infoblatt_Leasing_vs_Kauf.pdf`<br>`docs/04_Angebot/Infoblatt_Leasing_vs_Kauf.docx` | CAPEX vs. OPEX, Liquidität, steuerliche Behandlung, AfA |
-| **Aufgabe 5a** | Wareneingangsprüfung (§ 377 HGB) | `docs/05_Wareneingang/Wareneingangspruefung.pdf`<br>`docs/05_Wareneingang/Wareneingangspruefung.docx` | **§ 377 HGB**, offene vs. verdeckte Mängel, Genehmigungsfiktion |
-| **Aufgabe 5b** | Formelle Mängelrüge an Lieferant | `docs/05_Wareneingang/Maengelruege.pdf`<br>`docs/05_Wareneingang/Maengelruege.docx` | Rechtssichere Rüge Transportschaden & Falschlieferung (14-Tage-Frist) |
-| **Aufgabe 6** | Umwelt- & Entsorgungskonzept | `docs/06_Entsorgung/Entsorgungskonzept.pdf`<br>`docs/06_Entsorgung/Entsorgungskonzept.docx` | **ElektroG (Kat. 6)**, BSI-Datenlöschung, Toner-Recycling |
-| **Aufgabe 7a** | Inbetriebnahme-Checkliste | `docs/07_Rollout/Checkliste_Inbetriebnahme.pdf`<br>`docs/07_Rollout/Checkliste_Inbetriebnahme.docx` | ArbStättV-Checkliste, Kabelmanagement, Funktionstests vor Ort |
-| **Aufgabe 7b** | Abnahme- & Übergabeprotokoll | `docs/07_Rollout/Abnahmeprotokoll.pdf`<br>`docs/07_Rollout/Abnahmeprotokoll.docx` | Rechtskonformes Abnahmeprotokoll nach § 640 BGB |
-| **Aufgabe 8a** | Lessons Learned & Reflexion | `docs/08_Projektabschluss/Lessons_Learned.pdf`<br>`docs/08_Projektabschluss/Lessons_Learned.docx` | Soll-Ist-Vergleich (Budget & Zeit eingehalten), Reflexion & Feedback |
-| **Aufgabe 8b** | 10-Minuten-Abschlusspräsentation | `docs/08_Projektabschluss/Abschlusspraesentation.pptx`<br>`docs/08_Projektabschluss/Abschlusspraesentation.pdf` | 16 Folien, modernste Master-Folien mit vollen Notizen |
+| **Aufgabe 4b** | Formelles Angebot an Kunden | `docs/04_Angebot/Angebot_VektorPlan.docx` | DIN 5008 Geschäftsbrief, **67.179,32 € netto**, Zahlungsbedingungen |
+| **Aufgabe 4c** | Finanzierungsberatung | `docs/04_Angebot/Infoblatt_Leasing_vs_Kauf.docx` | CAPEX vs. OPEX, Liquidität, steuerliche Behandlung, AfA |
+| **Aufgabe 5a** | Wareneingangsprüfung (§ 377 HGB) | `docs/05_Wareneingang/Wareneingangspruefung.docx` | **§ 377 HGB**, offene vs. verdeckte Mängel, Genehmigungsfiktion |
+| **Aufgabe 5b** | Formelle Mängelrüge an Lieferant | `docs/05_Wareneingang/Maengelruege.docx` | Rechtssichere Rüge Transportschaden & Falschlieferung (14-Tage-Frist) |
+| **Aufgabe 6** | Umwelt- & Entsorgungskonzept | `docs/06_Entsorgung/Entsorgungskonzept.docx` | **ElektroG (Kat. 6)**, BSI-Datenlöschung, Toner-Recycling |
+| **Aufgabe 7a** | Inbetriebnahme-Checkliste | `docs/07_Rollout/Checkliste_Inbetriebnahme.docx` | ArbStättV-Checkliste, Kabelmanagement, Funktionstests vor Ort |
+| **Aufgabe 7b** | Abnahme- & Übergabeprotokoll | `docs/07_Rollout/Abnahmeprotokoll.docx` | Rechtskonformes Abnahmeprotokoll nach § 640 BGB |
+| **Aufgabe 8a** | Lessons Learned & Reflexion | `docs/08_Projektabschluss/Lessons_Learned.docx` | Soll-Ist-Vergleich (Budget & Zeit eingehalten), Reflexion & Feedback |
+| **Aufgabe 8b** | 10-Minuten-Abschlusspräsentation | `docs/08_Projektabschluss/Abschlusspraesentation.pptx` | 16 Folien, modernste Master-Folien mit vollen Notizen |
 | **Aufgabe 8c** | Gesprächsleitfaden & Skript | `docs/08_Projektabschluss/Gespraechsleitfaden_Praesentation.pdf` | Wortlaut für alle 5 Sprecher in natürlicher Schülersprache |
 
 ---
 
 ## 🎤 5. Leitfaden für die 10-Minuten-Abschlusspräsentation
 
-Die Präsentation liegt in zwei Formaten vor:  
-📁 **`docs/08_Projektabschluss/Abschlusspraesentation.pptx`** (für PowerPoint)  
-📄 **`docs/08_Projektabschluss/Abschlusspraesentation.pdf`** (direkt als PDF präsentierbar)  
+Die Präsentation liegt als PowerPoint-Datei vor:  
+📁 **`docs/08_Projektabschluss/Abschlusspraesentation.pptx`**  
 📄 **Gedruckter Wortlaut-Leitfaden:** `docs/08_Projektabschluss/Gespraechsleitfaden_Praesentation.pdf`
 
 > **Tipp:** In der PowerPoint-Datei hat **jede Folie ein vollständiges Notizfeld** mit dem exakten Sprechtext in natürlicher Schülersprache! Klickt in PowerPoint unten einfach auf *Notizen* oder nutzt die Referentenansicht (`Alt + F5`).
