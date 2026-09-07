@@ -28,9 +28,13 @@ projekt_handlungsaufgabe/
 │   │   └── Kundenberechnungen.xlsx               # Speicherplatzbedarf (445 GiB) & Energiekosten (1.771,26 €/a)
 │   ├── 01_Projektorganisation/
 │   │   ├── Vorgangsliste.xlsx                    # 14 Vorgänge nach Wasserfallmodell inkl. Abhängigkeiten & Dauern
-│   │   ├── Netzplan.xlsx                         # Netzplan nach DIN 69900 (Kritischer Weg, FAZ/FEZ/SAZ/SEZ, Puffer)
-│   │   ├── Netzplan.md                           # Dokumentierter Netzplan mit grafischem Mermaid-Ablauf & Knotenzeiten
-│   │   ├── Projektstrukturplan.xlsx              # Detaillierter tabellarischer PSP (DIN 69901) mit allen Arbeitspaketen
+│   │   ├── Netzplan.xlsx                         # Netzplan DIN 69900 (Blatt 1: Grafik-Einbettung, Blatt 2: Formeltabelle)
+│   │   ├── Netzplan.pdf                          # Hochauflösender Vektor-Netzplan (DIN A4 Querformat)
+│   │   ├── Netzplan.png                          # Kristallklarer DIN 69900 Netzplan mit kritischem Pfad (rot)
+│   │   ├── Netzplan.md                           # Dokumentierter Netzplan mit grafischem Ablauf & Knotenzeiten
+│   │   ├── Projektstrukturplan.xlsx              # PSP nach DIN 69901 (Blatt 1: Grafik-Einbettung, Blatt 2: WBS-Tabelle)
+│   │   ├── Projektstrukturplan.pdf               # Hochauflösender Strukturplan (DIN A4 Querformat)
+│   │   ├── Projektstrukturplan.png               # 5 Teilprojekte, 30 Arbeitspakete als Baumdiagramm
 │   │   ├── Projektstrukturplan.md                # PSP (objektorientiert) mit visuellem Mermaid-Diagramm
 │   │   ├── Gantt_Diagramm.xlsx                   # Visueller Termin- und Ablaufplan (48 Tage)
 │   │   └── Risikoanalyse.xlsx                    # 7 Risiken inkl. Matrix & Ampel-Bewertung
@@ -38,8 +42,8 @@ projekt_handlungsaufgabe/
 │   │   └── Lastenheft.docx                       # Detaillierte Spezifikationen (12 Standard-PCs, 4 CAD, 32 Monitore, MFP, Software)
 │   ├── 03_Marktrecherche/
 │   │   ├── Produktrecherche.xlsx                 # Reale Marktprodukte mit Preisen (Dell, Lenovo, HP, EIZO etc.)
-│   │   ├── Nutzwertanalyse_Workstations.xlsx     # Gewichtete Entscheidungsmatrix (Sieger: Lenovo ThinkStation P3)
-│   │   └── Nutzwertanalyse_Monitore.xlsx         # Gewichtete Entscheidungsmatrix (Sieger: Dell UltraSharp U2724D)
+│   │   ├── Nutzwertanalyse_Workstations.xlsx     # Gewichtete Entscheidungsmatrix (Sieger: Lenovo ThinkStation P3 mit 8,70)
+│   │   └── Nutzwertanalyse_Monitore.xlsx         # Gewichtete Entscheidungsmatrix (Sieger: Dell UltraSharp U2724D mit 9,10)
 │   ├── 04_Angebot/
 │   │   ├── Angebot_VektorPlan.docx               # Formgerechtes kaufmännisches Angebot (DIN 5008)
 │   │   ├── Vorwaertskalkulation.xlsx             # Vollständige Vorwärtskalkulation (LEP bis LVP inkl. Handlungskosten & Skonto)
@@ -54,8 +58,11 @@ projekt_handlungsaufgabe/
 │   │   └── Abnahmeprotokoll.docx                 # Rechtskonformes Abnahme- und Übergabeprotokoll mit Mängelliste
 │   └── 08_Projektabschluss/
 │       ├── Lessons_Learned.docx                  # Soll-Ist-Vergleich, Selbstreflexion & Handlungsempfehlungen
-│       ├── Abschlusspraesentation_VektorPlan.pptx# Überarbeitete 16-Folien Premium-Präsentation mit Netzplan & PSP
-│       └── Abschlusspraesentation.pptx           # 14 Folien Basis-Abschlusspräsentation
+│       ├── Abschlusspraesentation_VektorPlan.pptx# 16-Folien Premium-Präsentation mit Netzplan, PSP & Team-Sprechernotizen
+│       ├── Abschlusspraesentation.pptx           # Synchronisierte Abschlusspräsentation
+│       ├── Gespraechsleitfaden_Praesentation.pdf # Vollständiger Wortlaut-Leitfaden aufgeteilt auf alle 5 Teammitglieder
+│       ├── Projekterklaerung_und_Wissensleitfaden.pdf # Fachwissen, methodische Erklärungen & Vorbereitung für Prüferfragen
+│       └── Projektstatus_und_Naechste_Schritte.pdf # Statusübersicht, Rollenmatrix & Checkliste zur Bestnote 1
 └── README.md
 ```
 
