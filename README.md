@@ -28,7 +28,8 @@ projekt_handlungsaufgabe/
 │   │   └── Kundenberechnungen.xlsx               # Speicherplatzbedarf (445 GiB) & Energiekosten (1.771,26 €/a)
 │   ├── 01_Projektorganisation/
 │   │   ├── Vorgangsliste.xlsx                    # 14 Vorgänge nach Wasserfallmodell inkl. Abhängigkeiten & Dauern
-│   │   ├── Projektstrukturplan.md                # PSP (objektorientiert) mit Mermaid-Diagramm
+│   │   ├── Projektstrukturplan.xlsx              # Detaillierter tabellarischer PSP (DIN 69901) mit allen Arbeitspaketen
+│   │   ├── Projektstrukturplan.md                # PSP (objektorientiert) mit visuellem Mermaid-Diagramm
 │   │   ├── Gantt_Diagramm.xlsx                   # Visueller Termin- und Ablaufplan (48 Tage)
 │   │   └── Risikoanalyse.xlsx                    # 7 Risiken inkl. Matrix & Ampel-Bewertung
 │   ├── 02_Anforderungsanalyse/
